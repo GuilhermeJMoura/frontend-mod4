@@ -12,7 +12,7 @@ export function AppRoutes(){
             <Routes>
                 <Route path="/dashboard" element={<Dashboard />}>
                 </Route>
-            </Routes>          
+            </Routes>   
         </Router>
     )
 }
