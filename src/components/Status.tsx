@@ -2,19 +2,12 @@ import React from 'react'
 import { useState } from 'react'
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/js/bootstrap.bundle.js';
-// import './src/styles/Status.css'
+import '../styles/status.css'
 
-export function Status (){
-    const style_main = { 
-        width: "30%", 
-        height: "40%", 
-        backgroundColor: "black" };
-
-
-    
+export function Status (){    
     return(
-        <div style={style_main} className='main'>
-            Olá
+        <div className='main'>
+          
         </div>
     )
 }
