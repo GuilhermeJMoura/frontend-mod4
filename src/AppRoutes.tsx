@@ -4,6 +4,7 @@ import {
     Routes
     }  from "react-router-dom";
 import Dashboard from "./pages/dashboard";
+import { Login } from "./pages/Login"
 
 
 export function AppRoutes(){
@@ -11,6 +12,8 @@ export function AppRoutes(){
         <Router>
             <Routes>
                 <Route path="/dashboard" element={<Dashboard />}>
+                </Route>
+                <Route path="/login" element={<Login />}>
                 </Route>
             </Routes>   
         </Router>

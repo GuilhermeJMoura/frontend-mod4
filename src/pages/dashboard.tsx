@@ -1,5 +1,3 @@
-import React from 'react'
-import ReactDOM from 'react-dom'
 import { Navbar } from '../components/Navbar.tsx'
 import { TabelaDevices } from '../components/TabelaDevices.tsx'
 import { Status } from '../components/Status.tsx'
@@ -20,6 +18,7 @@ const Dashboard= () => {
 
     return (
         <>
+<<<<<<< Updated upstream
         <React.StrictMode>
             <div style={main}>
                 <Navbar />
@@ -35,6 +34,12 @@ const Dashboard= () => {
             
             
         </React.StrictMode>
+=======
+            {/* <div>/</div> */}
+            <Navbar />
+            <TabelaDevices />
+            <Status />
+>>>>>>> Stashed changes
         </>
 
     )
