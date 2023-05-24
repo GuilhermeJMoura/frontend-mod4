@@ -9,13 +9,13 @@ export function TabelaDevices(){
   <caption>List of users</caption>
   <thead>
     <tr>
-      <th scope="col">#</th>
-      <th scope="col">First</th>
-      <th scope="col">Last</th>
-      <th scope="col">Handle</th>
-      <th scope="col">Column 5</th>
-      <th scope="col">Column 6</th>
-      <th scope="col">Column 7</th>
+      <th scope="col">ID Máq</th>
+      <th scope="col">ID Usuário</th>
+      <th scope="col">Status</th>
+      <th scope="col">Tempo em uso</th>
+      <th scope="col">Localização</th>
+      <th scope="col">Nível Bateria</th>
+      <th scope="col">Histórico</th>
     </tr>
   </thead>
   <tbody>
