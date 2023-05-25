@@ -19,29 +19,20 @@ const Dashboard= () => {
         paddingLeft: '4%', 
         paddingRight: '4%',
         paddingTop: '1.5%'
-
-
     }
-     
-
     return (
-    
-  
-            <div style={main}>
-                <Navbar />
-                <div style={container_central}>
-                    <div style={{ display: 'flex', flexDirection:'column', flex: 1, rowGap: '10px' }}>
-                        <Status />
-                        <Status_Equipe />
-                    </div>
-                    <div style={{ flex: 1 }}>
-                        <TabelaDevices />
-                    </div>
+        <div style={main}>
+            <Navbar />
+            <div style={container_central}>
+                <div style={{ display: 'flex', flexDirection:'column', flex: 1, rowGap: '10px' }}>
+                    <Status />
+                    <Status_Equipe />
+                </div>
+                <div style={{ flex: 1 }}>
+                    <TabelaDevices />
                 </div>
             </div>
-            
-        
-
+        </div>
     )
 }
 
