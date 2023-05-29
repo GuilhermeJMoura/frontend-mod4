@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.main-cadastro-device{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 88.8vh;
+    background-color: #fff;    
+}
+
+.grid-container-cadastro{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 15% 15% 17% 17% 17% 19%;
+    border: 2px solid #000;
+    background-color: #000000d7;
+    width: 60%;
+    height: 85%;
+    border-radius: 1.5%;
+}
+
+
+
+.grid-item-cadastro:nth-child(1), .grid-item-cadastro:nth-child(2), .grid-item-cadastro:nth-child(9){
+    grid-column-start: 1;
+    grid-column-end: 3
+}
+
+.grid-item-cadastro:not(.grid-item-cadastro:nth-child(9)){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cadastro-title{
+    font-size: 2rem;
+    color: #fff;
+}
+.grid-item-cadastro:nth-child(2){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-item-cadastro:nth-child(9){
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.cadastro-button, .cancel-button{
+    margin-bottom: 2%;
+    margin-right: 2%;
+    width: 20%;
+    height: 40%;
+    background-color: #fff;
+    border: 2px solid #fff;
+    border-radius: 8px;
+}
+
+
+
