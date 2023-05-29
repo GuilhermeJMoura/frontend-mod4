@@ -75,3 +75,5 @@ export function CadastrarEquipamentos (){
         
     )
 }
+
+//Teste
