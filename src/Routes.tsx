@@ -4,6 +4,8 @@ import {
     Routes
     }  from "react-router-dom";
 import Dashboard from "./pages/dashboard";
+import CadastroEquipamentos from "./pages/cadastro_equipamentos";
+
 
 
 export function AppRoutes(){
@@ -11,8 +13,10 @@ export function AppRoutes(){
         <Router>
             <Routes>
                 <Route path="/dashboard" element={<Dashboard />}>
-                </Route>
-            </Routes>          
+                    </Route>
+                <Route path="/cadastrardev" element={<CadastroEquipamentos />}>
+                    </Route>
+            </Routes>   
         </Router>
     )
 }
